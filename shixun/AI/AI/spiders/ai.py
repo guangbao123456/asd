@@ -34,4 +34,4 @@ class ZhiNeng(CrawlSpider):
         url=response.url
         title=s.xpath("//div[@class='box']/h1[@class='h1']/text()").extract()
         keywords=s.xpath("//meta[@name='keywords']/@content").extract()
-        print(keywords)
+        print(title)
