@@ -12,4 +12,5 @@ class KugouItem(scrapy.Item):
     # define the fields for your item here like:
     author = scrapy.Field()
     sname = scrapy.Field()
+    singid = scrapy.Field()
 
